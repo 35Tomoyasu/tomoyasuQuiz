@@ -1,3 +1,8 @@
+// 即時関数で囲う(グローバル汚染防止)
+
+(() => {
+  // ここに命令を書く
+
 const tomoyasuQuiz = [
   {
     question: '問題1：友康の血液型は次のうちどれ？',
@@ -245,3 +250,6 @@ while (handlerIndex < buttonLength) {
 // $button[3].addEventListener('click', (e) => {
 //   clickHandler(e);
 // });
+
+
+})();
